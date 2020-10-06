@@ -1,0 +1,64 @@
+.body-style{
+	background-color: #5c80bc;
+
+}
+
+.welcome-title{
+	color: #ffffff;
+	border-bottom: 3px solid #ffffff;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#front-page-links{
+border: 5px solid #ffffff;
+
+max-height: auto;
+max-width: 300px;
+margin-left: 500px;
+}
+
+.first-page-links{
+	max-height: auto;
+	max-width: 400px;
+	display: block;
+    background-color: #5e5c6c;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 10px;
+    opacity: 0.9;
+    border-bottom: 2px solid #ffffff;
+    text-transform: uppercase;
+    
+}
+
+#copyright{
+	text-align: center;
+}
+/***************RECEPTION*********************/
+
+.container-1{
+	display: flex;
+
+}                                                                                                                                                                                     
+.container-1 div{
+	border: 1px solid #5e5c6c;
+	padding:10px;
+} 
+.box-1{
+	flex:1;
+}
+.box-2{
+	flex:2;
+} 
+.box-3{
+	flex:1;
+}                                                                                                                                                                                     
+/* added display class for the forms not to show at the first instance */
+.formdisplay{
+	display:none;
+}
